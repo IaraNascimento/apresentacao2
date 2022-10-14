@@ -1,0 +1,36 @@
+ul.home-list li a {
+  display: flex;
+  width: 100%;
+  min-height: 19vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10%;
+  box-sizing: border-box;
+}
+
+.home-list-img {
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+}
+
+.home-list-first-text {
+  font-size: 44px;
+  line-height: 56px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 45%;
+}
+
+.home-list-divider {
+  border-right: white solid 8px;
+  min-height: 6vh;
+  height: 115px;
+}
+
+.home-list-second-text {
+  width: 27%;
+  margin-right: -5%;
+  padding-left: 3%;
+}
