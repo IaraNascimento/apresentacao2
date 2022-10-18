@@ -2,3 +2,16 @@
 main {
   background-color: #E3B25E;
 }
+
+.counter,
+.counter-small {
+  color: #E3B25E;
+}
+
+.esg-numbers-list {
+  margin: 0 -130px;
+}
+
+.esg-numbers-list li {
+  display: inline-block;
+}

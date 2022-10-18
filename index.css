@@ -1,11 +1,11 @@
 ul.home-list li a {
   display: flex;
   width: 100%;
-  min-height: 19vh;
   align-items: center;
   justify-content: space-between;
-  padding: 10%;
+  padding: 5% 10%;
   box-sizing: border-box;
+  height: 274.3px;
 }
 
 .home-list-img {

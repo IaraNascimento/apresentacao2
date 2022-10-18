@@ -1,9 +1,9 @@
-
 @keyframes enterAnimated {
 	from {
 		opacity: 0;
 		transform: translateY(-3%);
 	}
+
 	to {
 		opacity: 1;
 		transform: translateY(0);
@@ -11,25 +11,170 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	font-size: 32px;
 	line-height: 40px;
-  color: white;
+	color: white;
 }
 
 main {
 	position: relative;
 	z-index: 1;
 	animation: enterAnimated .4s;
-	min-height: calc(100vh - 100px);
+	min-height: calc(100vh - 200px);
 }
 
 main:not(#home-content) {
-	margin-top: 100px;
-	padding: 5%;
+	margin-top: 80px;
+	padding: 80px 56px;
 }
 
 a {
-  text-decoration: none;
-  color: white;
+	text-decoration: none;
+	color: white;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.container {
+	display: block;
+	margin: 0 auto;
+	width: 700px;
+}
+
+.video,
+.label {
+	display: block;
+}
+
+.video {
+	width: 88%;
+	margin: 16px auto;
+}
+
+.label {
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+.title-img {
+	display: block;
+	margin: 0 auto;
+	height: 140px;
+}
+
+.title-text {
+	display: block;
+	margin: 32px auto;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 46px;
+	text-align: center;
+}
+
+.title-divider {
+	display: block;
+	margin: 0 auto;
+	border-bottom: 8px solid white;
+	width: 520px;
+}
+
+.subtitle-text {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 40px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 32px 0 8px 0;
+}
+
+.default-title {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 44px;
+	margin: 40px 0;
+	line-height: 56px;
+}
+
+.undeline-text {
+	display: inline-block;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 32px;
+	line-height: 80px;
+	border-bottom: white 4px solid;
+}
+
+.picture {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.picture img {
+	width: 100%;
+}
+
+.picture figcaption {
+	font-size: 18px;
+}
+
+.counter,
+.counter-small {
+	display: inline-block;
+	background-color: white;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.counter {
+	font-size: 40px;
+	height: 65px;
+	line-height: 66px;
+	width: 65px;
+	margin-right: 24px;
+}
+
+.counter-small {
+	font-size: 24px;
+	height: 32px;
+	line-height: 32px;
+	width: 32px;
+	margin-right: 16px;
+}
+
+.default-list,
+.secondary-list,
+.simple-list {
+	line-height: 48px;
+	margin-bottom: 16px;
+}
+
+.default-list {
+	list-style-type: disc;
+	margin-top: 24px;
+	margin-left: 26px;
+}
+
+.secondary-list {
+	margin-left: -8px;
+}
+
+.secondary-list > li::before {
+  content: "-";
+	margin-right: 12px;
+}
+
+.simple-list li {
+	margin: 24px 0;
+	display: flex;
+	align-items: center;
+}
+
+ul ul.default-list {
+	margin-top: 0;
+	margin-left: 120px;
 }
