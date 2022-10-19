@@ -59,7 +59,7 @@
     }, {
       "id": "premiacoes",
       "label": "Premiações",
-      "description": "",
+      "description": "2020<br />2021<br />2022",
       "target": "src/premiacoes/premiacoes.html",
       "color": "#86898D",
       "homeVisible": true,
