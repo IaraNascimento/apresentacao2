@@ -2,3 +2,15 @@
 main {
   background-color: #989187;
 }
+
+.counter {
+  color: #989187;
+}
+
+.default-list li {
+  margin: 8px 0;
+}
+
+.default-title {
+  margin-top: 80px;
+}

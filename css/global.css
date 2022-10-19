@@ -148,7 +148,8 @@ strong {
 
 .default-list,
 .secondary-list,
-.simple-list {
+.simple-list,
+.counter-list {
 	line-height: 48px;
 	margin-bottom: 16px;
 }
@@ -181,4 +182,13 @@ strong {
 ul ul.default-list {
 	margin-top: 0;
 	margin-left: 120px;
+}
+
+.counter-list li div {
+	display: flex;
+	align-items: center;
+}
+
+.counter-list li div span {
+	min-width: 65px;
 }

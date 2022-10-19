@@ -11,7 +11,7 @@
     }, {
       "id": "institucional",
       "label": "Institucional Tegra",
-      "description": "números atualizados",
+      "description": "Números atualizados",
       "target": "src/institucional/institucional.html",
       "color": "#F6BB4C",
       "homeVisible": true,
